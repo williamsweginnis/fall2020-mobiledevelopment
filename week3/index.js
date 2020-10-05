@@ -1,4 +1,5 @@
 // Import Article
+
 import Article from './Article.js';
 
 // Pass the values to the constructor method of Article
