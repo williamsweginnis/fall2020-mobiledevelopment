@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import logo from './logo.svg';
+
 import './App.css';
 function App() {
 
@@ -10,7 +10,7 @@ let[example,changeExample]=useState(0);
       <header className="App-header">
         <p>Count:{example}</p>
           <button onClick={() => {changeExample(example + 1)}}>Increase!</button>
-        </a>
+
       </header>
     </div>
   );
